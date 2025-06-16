@@ -19,5 +19,8 @@ ENV TELEGRAM_BOT_TOKEN=${TELEGRAM_BOT_TOKEN}
 # Установка serve для React и запуск бота + сайта
 RUN npm install -g serve
 
+# Открываем порт, который будет слушать приложение
+EXPOSE 3000
+
 # Команда запуска: сначала бот, потом сайт
 CMD node bot.js & serve -s build -l 3000
