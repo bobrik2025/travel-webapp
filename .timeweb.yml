@@ -1,12 +1,11 @@
 build:
   command: |
-    cd client
     npm install
     npm run build
-  output: client/build
+  output: build
 
 run:
   command: |
     npm install
     node bot.js &
-    npx serve -s client/build -l 3000
+    npx serve -s build -l 3000
