@@ -59,12 +59,12 @@ const menuItems = [
 function App() {
   const [page, setPage] = useState("menu");
 
-  useEffect(() => {
-    if (window.Telegram.WebApp) {
-      window.Telegram.WebApp.ready();
-      window.Telegram.WebApp.expand();
-    }
-  }, []);
+ useEffect(() => {
+  if (window.Telegram && window.Telegram.WebApp) {
+    window.Telegram.WebApp.ready();
+    window.Telegram.WebApp.expand(); // не обязательно
+  }
+}, []);
 
   return (
       <div className="app">
