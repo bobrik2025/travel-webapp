@@ -555,8 +555,8 @@ function App() {
                   </div>
                 </div>
                 <div className="menu-item">
-                  <div className="menu-item-left">
-                    <img src="icons/kiwi.png" alt=""/>
+                  <div className="menu-item-left">ъ
+                    <img src="icons/Kiwi.png" alt=""/>
                     <div className="menu-item-text">
                       <span>BikesBooking.com</span>
                     </div>
