@@ -1,0 +1,5 @@
+build:
+  command: npm install && npm run build
+  output: build
+run:
+  command: npx serve -s build -l 3000

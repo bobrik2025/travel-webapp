@@ -4,13 +4,16 @@
   "private": true,
   "dependencies": {
     "lottie-react": "^2.4.1",
+    "node-telegram-bot-api": "^0.66.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-scripts": "5.0.1"
+    "react-scripts": "5.0.1",
+    "serve": "^14.2.0"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "start:prod": "serve -s build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
@@ -25,5 +28,17 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "description": "Мини-приложение Telegram (WebApp) на React: \"Путешествуй налегке\".",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bobrik2025/travel-webapp.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bobrik2025/travel-webapp/issues"
   }
 }
