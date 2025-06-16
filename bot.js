@@ -2,6 +2,8 @@ require('dotenv').config();
 const TelegramBot = require('node-telegram-bot-api');
 
 const token = process.env.TELEGRAM_BOT_TOKEN;
+// 👉 Добавь вот эту строку сразу после получения токена:
+console.log('BOT TOKEN:', token);
 
 if (!token) {
   console.error("❌ Ошибка: TELEGRAM_BOT_TOKEN не задан!");
