@@ -20,7 +20,7 @@ bot.onText(/\/start/, (msg) => {
           {
             text: "🚀 Путешествуй налегке!",
             web_app: {
-              url: "https://bobrik2025-travel-webapp-bab3.twc1.net" // 👈 здесь укажи свой домен Timeweb позже
+              url: "https://bobrik2025-travel-webapp-bab3.twc1.net/" // 👈 здесь укажи свой домен Timeweb позже
             }
           }
         ]
