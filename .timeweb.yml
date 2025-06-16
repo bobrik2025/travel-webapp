@@ -1,11 +1,1 @@
-build:
-  command: |
-    npm install
-    npm run build
-  output: build
-
-run:
-  command: |
-    npm install
-    node bot.js &
-    npx serve -s build -l 3000
+dockerfile: Dockerfile
