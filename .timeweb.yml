@@ -10,3 +10,6 @@ run:
     npm install
     node bot.js &
     npx serve -s client/build -l 3000
+
+env:
+  TELEGRAM_BOT_TOKEN: "7731716861:AAHzB0icnQtooH9CkrxhA5I5_2E3gkzig3w"
